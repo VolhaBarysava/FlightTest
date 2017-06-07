@@ -1,0 +1,14 @@
+<suite name="SampleTestSuite" >	 
+  <test name="FIRST Maven">
+     <!--  <parameter name="browser" value="IExplorer"></parameter>
+     <parameter name="url" value="https://mail.google.com/mail/u/0/h/"></parameter>
+     <parameter name = "EmailId" value="testvaultapp@gmail.com"></parameter>
+      <parameter name = "Password" value="test@1234"></parameter> -->
+      <parameter name="browser" value="IExplorer"></parameter>
+     <parameter name="url" value="https://wizzair.com/"></parameter>
+  	 <classes>
+	 	<class name="org.epam.test.CheckFlightTest"/>
+  	 </classes>
+ </test>
+
+</suite>
